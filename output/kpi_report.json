@@ -1,0 +1,24 @@
+{
+  "generated_for": "synthetic abandoned cart recovery dataset",
+  "seed": 20261022,
+  "metrics": {
+    "cart_count": 50000,
+    "abandoned_timestamp_count": 20000,
+    "orders": 29859,
+    "send_attempts": 10000,
+    "sent": 1267,
+    "suppressed": 8733,
+    "delivery_rate": 1,
+    "open_rate": 0.585635359116022,
+    "click_through_rate": 0.26992896606156275,
+    "attributed_orders": 42,
+    "attributed_revenue": 8332.01,
+    "attribution_rate": 0.0014066110720385814,
+    "ground_truth_anomalies": 4
+  },
+  "suppression_reasons": {
+    "no_active_consent": 2705,
+    "frequency_cap": 28,
+    "cart_not_abandoned": 6000
+  }
+}

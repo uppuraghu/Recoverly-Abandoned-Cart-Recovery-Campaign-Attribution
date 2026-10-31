@@ -1,0 +1,38 @@
+[
+  {
+    "issue_id": "GT-001",
+    "entity_type": "SendAttempt",
+    "entity_id": "SEND-2026-000001",
+    "issue_type": "message_sent_after_opt_out",
+    "ground_truth": "violation",
+    "expected_decision": "Suppress send because latest effective consent is opt_out",
+    "severity": "critical"
+  },
+  {
+    "issue_id": "GT-002",
+    "entity_type": "Cart",
+    "entity_id": "CART-2026-000002",
+    "issue_type": "cart_abandoned_after_purchase",
+    "ground_truth": "violation",
+    "expected_decision": "Purchase timestamp must close cart before abandonment evaluation",
+    "severity": "high"
+  },
+  {
+    "issue_id": "GT-003",
+    "entity_type": "Attribution",
+    "entity_id": "ORD-2026-000008",
+    "issue_type": "attribution_double_counted_across_campaigns",
+    "ground_truth": "violation",
+    "expected_decision": "Only one campaign may receive primary last-click credit per order; secondary duplicate credit must be rejected",
+    "severity": "high"
+  },
+  {
+    "issue_id": "GT-004",
+    "entity_type": "Cart",
+    "entity_id": "CART-2026-000003",
+    "issue_type": "cart_total_stale_after_quantity_update",
+    "ground_truth": "violation",
+    "expected_decision": "Recalculate cart subtotal/tax/total from current CartLine records",
+    "severity": "medium"
+  }
+]

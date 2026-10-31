@@ -1,0 +1,18 @@
+{
+  "name": "abandoned-cart-recovery",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Interactive abandoned-cart recovery operations app with deterministic synthetic data and campaign attribution",
+  "type": "commonjs",
+  "scripts": {
+    "generate": "node src/generate.js",
+    "validate": "node src/validate.js",
+    "report": "node src/report.js",
+    "reproduce": "node src/reproduce.js",
+    "all": "npm run generate && npm run validate && npm run report",
+    "start": "node src/server.js",
+    "dashboard": "node src/server.js",
+    "reset-demo": "node src/reset-demo.js"
+  },
+  "engines": { "node": ">=18" }
+}

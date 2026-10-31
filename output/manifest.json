@@ -1,0 +1,164 @@
+{
+  "project": "abandoned-cart-recovery",
+  "generated_at": "2026-10-22T12:00:00.000Z",
+  "seed": 20261022,
+  "parameters": {
+    "carts": 50000,
+    "abandoned_carts": 20000,
+    "campaigns": 10000,
+    "send_attempts": 10000,
+    "customers": 31000
+  },
+  "counts": {
+    "Customer": 31000,
+    "Consent": 62592,
+    "Session": 50000,
+    "Cart": 50000,
+    "CartLine": 124618,
+    "MessageTemplate": 20,
+    "Campaign": 10000,
+    "SendAttempt": 10000,
+    "MessageEvent": 2351,
+    "Order": 29859,
+    "Attribution": 43,
+    "CartEvent": 102859
+  },
+  "files": [
+    {
+      "file": "data/attribution.csv",
+      "bytes": 4798,
+      "sha256": "ae5d62a36dc039a5a5d58ec75725e82772068403759479e4ba3cee82c6cc0958"
+    },
+    {
+      "file": "data/attribution.json",
+      "bytes": 14259,
+      "sha256": "d781370c0529b7036cb24f64989095a65a14b5408e6cf53004dbbbdb1cc78180"
+    },
+    {
+      "file": "data/campaign.csv",
+      "bytes": 1082621,
+      "sha256": "336df4bd0226cf3b879270f0b97699c2fdd27bc036adb2f403d1b2d112a8465d"
+    },
+    {
+      "file": "data/campaign.json",
+      "bytes": 3232503,
+      "sha256": "0e5e7ff715360f8469bebe5629bbc48cfb68b6925cc240de443c4e68b1f063b8"
+    },
+    {
+      "file": "data/cart.csv",
+      "bytes": 9087354,
+      "sha256": "3b84a4e85e0d9aa0e8524e44fa1cf492dc4eae9d05d9fe8f79018b1d44ae2c4f"
+    },
+    {
+      "file": "data/cart.json",
+      "bytes": 26037450,
+      "sha256": "1d928647274aabf35e8a71f97dd4d358cad322a810fa3e4280ec19970bc0fdae"
+    },
+    {
+      "file": "data/cartevent.csv",
+      "bytes": 10504201,
+      "sha256": "89678cff91f5980bf920f930ab8e52517db8698e663577b059645232791a28b2"
+    },
+    {
+      "file": "data/cartevent.json",
+      "bytes": 26032982,
+      "sha256": "b540a1a319ed5c6d9b4c6c7f71d591cedc3efa9b16a4a578270c639c05be6e62"
+    },
+    {
+      "file": "data/cartline.csv",
+      "bytes": 8791865,
+      "sha256": "341efd478b38e47cf665aeea17cd059678dfdcbb11a5aab132974e2588a2668b"
+    },
+    {
+      "file": "data/cartline.json",
+      "bytes": 26362937,
+      "sha256": "dd87c2db71a2e07b7f7c18aaea008d0e0c5c1de536600431e6bc8c5444ef25ad"
+    },
+    {
+      "file": "data/consent.csv",
+      "bytes": 6593505,
+      "sha256": "e0a40225a1c0bb73738057b50a862f52acedbb1224e3e266c368721eb01d28f9"
+    },
+    {
+      "file": "data/consent.json",
+      "bytes": 17547023,
+      "sha256": "cf1dfa6b9f528eb0beda3d469a4f3aa93b64027446ace1122e70f203210a92cc"
+    },
+    {
+      "file": "data/customer.csv",
+      "bytes": 2923514,
+      "sha256": "7a80ca53f18ea325df99a98f60d8e4ecd9bd44cbd0f0a552bd400021431d30db"
+    },
+    {
+      "file": "data/customer.json",
+      "bytes": 7418450,
+      "sha256": "5a5f69b774902fcf67734de0c72332542607a1a0c7674f9cb4cad99669f6e0fe"
+    },
+    {
+      "file": "data/messageevent.csv",
+      "bytes": 194632,
+      "sha256": "835fbf271c3ae46f51d09e13ba4b3dd8e61d43c1bfcffd4236002336173c052b"
+    },
+    {
+      "file": "data/messageevent.json",
+      "bytes": 467293,
+      "sha256": "b1bb4ece7c04f25e0fa9da1282d24650a4eb1049d00bb3904d84058ec5f2b677"
+    },
+    {
+      "file": "data/messagetemplate.csv",
+      "bytes": 2949,
+      "sha256": "60d81707f3bfc7d9e1e91a083180f80f9184060835db485711c18d35221c300c"
+    },
+    {
+      "file": "data/messagetemplate.json",
+      "bytes": 5583,
+      "sha256": "51cc8fd5bce00107b3e0c5b9a381af673f1b9a4d347dbd7480339570487a5d59"
+    },
+    {
+      "file": "data/order.csv",
+      "bytes": 2926281,
+      "sha256": "4272c66abceef28b6e42908a9671977731432d3e3637d3e56a3c8316e423f7f8"
+    },
+    {
+      "file": "data/order.json",
+      "bytes": 9226422,
+      "sha256": "37b71717b58bb11608539279adec88d63f6a11958c226d81ed5d66c173ef9fb6"
+    },
+    {
+      "file": "data/sendattempt.csv",
+      "bytes": 1881946,
+      "sha256": "fe23fb3cb103f01cc9fa59a78bbf6b331249a3c5956c5e231b770dfc10f0fe27"
+    },
+    {
+      "file": "data/sendattempt.json",
+      "bytes": 4371818,
+      "sha256": "d50db068dd7d9e4822d3a5628716979c6737c1a687f10865c9c7047764ac2282"
+    },
+    {
+      "file": "data/session.csv",
+      "bytes": 5266357,
+      "sha256": "e834e120b6fdc0a2d00bc3e8ec47042317359c5ebf38516cb8c6b77493289d93"
+    },
+    {
+      "file": "data/session.json",
+      "bytes": 12966284,
+      "sha256": "945f52f47d1108323ae0abe223acb6ba52b43a56d936d6992d6b36aa4cb3dce3"
+    },
+    {
+      "file": "ground_truth.csv",
+      "bytes": 717,
+      "sha256": "31d4d6bddfa954b8ed351f814a9defb55b392d28ba47f84241d1c77e6f4ff54f"
+    },
+    {
+      "file": "ground_truth.json",
+      "bytes": 1278,
+      "sha256": "480de022c8fcaeac58f1da94147fd7e90ef87bb3c3bd7029ae9bad22d3d59a5e"
+    },
+    {
+      "file": "seed.sql",
+      "bytes": 57439428,
+      "sha256": "7534fcf48dbc544b303ce930737aa20d6e524e63cc56a098bb9906d73a872cd6"
+    }
+  ],
+  "provenance": "Entirely synthetic records; no external personal data or public dataset used."
+}

@@ -1,0 +1,5 @@
+issue_id,entity_type,entity_id,issue_type,ground_truth,expected_decision,severity
+GT-001,SendAttempt,SEND-2026-000001,message_sent_after_opt_out,violation,Suppress send because latest effective consent is opt_out,critical
+GT-002,Cart,CART-2026-000002,cart_abandoned_after_purchase,violation,Purchase timestamp must close cart before abandonment evaluation,high
+GT-003,Attribution,ORD-2026-000008,attribution_double_counted_across_campaigns,violation,Only one campaign may receive primary last-click credit per order; secondary duplicate credit must be rejected,high
+GT-004,Cart,CART-2026-000003,cart_total_stale_after_quantity_update,violation,Recalculate cart subtotal/tax/total from current CartLine records,medium

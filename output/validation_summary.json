@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": 1455162,
+  "issue_count": 0,
+  "issues": [],
+  "row_counts": {
+    "Customer": 31000,
+    "Consent": 62592,
+    "Session": 50000,
+    "Cart": 50000,
+    "CartLine": 124618,
+    "Campaign": 10000,
+    "MessageTemplate": 20,
+    "SendAttempt": 10000,
+    "MessageEvent": 2351,
+    "Order": 29859,
+    "Attribution": 43,
+    "CartEvent": 102859
+  },
+  "ground_truth_count": 4,
+  "notes": [
+    "Four deliberate anomalies are expected and labelled separately.",
+    "This validator checks structural integrity and baseline volumes; the four labelled anomaly records are not treated as accidental generator failures."
+  ]
+}

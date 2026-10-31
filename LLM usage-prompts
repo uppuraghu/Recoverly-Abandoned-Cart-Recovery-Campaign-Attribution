@@ -1,0 +1,91 @@
+ AI Usage – Critical Development Challenges
+
+**Project:** Abandoned Cart Recovery & Campaign Attribution System
+
+**AI Tool Used:** ChatGPT
+
+During development, I used ChatGPT as a coding assistant to understand and troubleshoot specific technical challenges. The following are representative prompts and explanations of how AI assisted me.
+
+### 1. Challenge: Generating Large Datasets with Correct Relationships
+
+**Problem faced:**
+
+I needed to generate 50,000 shopping carts along with customers, sessions, cart items, campaigns and orders. I faced difficulty maintaining valid relationships between records and ensuring that child records referenced existing parent IDs.
+
+**Prompt used:**
+
+"I am building a synthetic e-commerce dataset using JavaScript. I need to generate 50,000 carts with customers, sessions and cart items. How can I generate parent records first and use their IDs when creating dependent records without creating invalid foreign-key references? Explain an efficient approach."
+
+**How AI helped:**
+- Explained parent-to-child data generation.
+- Suggested approaches for unique ID generation.
+- Helped me understand how to maintain valid relationships.
+
+**What I reviewed and tested:**
+I reviewed the generated entity relationships, executed the generator and checked the resulting record counts and references.
+
+### 2. Challenge: Reproducible Random Data Generation
+
+**Problem faced:**
+
+Every time random data was generated, values could change. I needed consistent output so that I could compare two independent generations.
+
+**Prompt used:**
+
+"My JavaScript data generator uses random values, but I need the same dataset every time I execute it. How can I implement a seeded random number generator and compare generated files using checksums?"
+
+**How AI helped:**
+- Explained fixed random seeds.
+- Helped me understand deterministic random generation.
+- Suggested comparing generated files and checksums.
+
+**What I reviewed and tested:**
+I used seed `20261022` and ran the reproducibility check. Both generations produced 28 files, and the check returned `reproducible: true`.
+
+### 3. Challenge: Consent and Campaign Eligibility
+
+**Problem faced:**
+
+I needed to prevent recovery messages from being sent to customers who had opted out, already purchased, or exceeded the campaign frequency limit. Combining these conditions into one eligibility workflow was challenging.
+
+**Prompt used:**
+
+"Help me design JavaScript eligibility logic for an abandoned cart recovery system. A customer should receive a recovery message only if the cart is abandoned, active channel-specific consent exists, no purchase has been completed, and the frequency cap is not exceeded. How should I handle suppression reasons and edge cases?"
+
+**How AI helped:**
+- Helped break eligibility into separate conditions.
+- Explained channel-specific consent checks.
+- Suggested suppression scenarios and edge cases.
+
+**What I reviewed and tested:**
+I reviewed the eligibility rules and validation output, including suppression reasons such as missing consent, frequency cap and carts that were not abandoned.
+
+### 4. Challenge: Campaign Attribution and Data Validation
+
+**Problem faced:**
+
+I needed to identify which recovery campaign contributed to an order. I also needed to prevent incorrect attribution when clicks and orders belonged to different customers or carts.
+
+**Prompt used:**
+
+"How can I implement last-click attribution in JavaScript for an abandoned cart recovery system? The campaign click and order must belong to the same customer and cart, and the click must fall within a configurable 168-hour attribution window. Also, how can I validate duplicate attribution records and incorrect lifecycle states?"
+
+**How AI helped:**
+- Explained last-click attribution.
+- Helped clarify customer, cart and timestamp matching.
+- Suggested data-quality and lifecycle validation scenarios.
+
+**What I reviewed and tested:**
+I reviewed the attribution conditions and executed the validation and reporting scripts. The validation completed with 1,455,162 checks and zero unexpected issues.
+
+**I was facing difficulty implementing recovery eligibility because multiple conditions needed to be checked before sending a recovery message. For example, a cart might be abandoned, but the customer could have opted out, already purchased, or exceeded the frequency limit.
+
+**I found it difficult to connect customer clicks with completed purchases. A customer could receive multiple campaign messages, click different links and purchase later. I needed to identify the correct campaign without incorrectly attributing an order.
+
+### Final Note
+
+I used AI mainly when I encountered implementation challenges involving data relationships, reproducibility, consent-based eligibility and campaign attribution.
+
+AI helped me understand possible solutions and troubleshoot difficult areas. I reviewed the relevant logic, integrated the required changes and used project execution and validation results to check the implementation.
+
+The prompts above represent the development challenges and AI assistance used during the project; they are not claimed as verbatim historical chat transcripts.

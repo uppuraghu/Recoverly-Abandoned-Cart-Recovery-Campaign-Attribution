@@ -1,0 +1,162 @@
+[
+  {
+    "template_id": "TPL-001",
+    "channel": "email",
+    "variant": "benefit_reminder",
+    "subject": "Your cart is waiting",
+    "body_text": "A friendly reminder: items are waiting in your cart.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-002",
+    "channel": "sms",
+    "variant": "product_reminder",
+    "subject": "Still thinking it over?",
+    "body_text": "Your selected items are still available. Return when ready.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-003",
+    "channel": "email",
+    "variant": "benefit_reminder",
+    "subject": "Your cart is waiting",
+    "body_text": "A friendly reminder: items are waiting in your cart.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-004",
+    "channel": "sms",
+    "variant": "product_reminder",
+    "subject": "Still thinking it over?",
+    "body_text": "Your selected items are still available. Return when ready.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-005",
+    "channel": "email",
+    "variant": "benefit_reminder",
+    "subject": "Your cart is waiting",
+    "body_text": "A friendly reminder: items are waiting in your cart.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-006",
+    "channel": "sms",
+    "variant": "product_reminder",
+    "subject": "Still thinking it over?",
+    "body_text": "Your selected items are still available. Return when ready.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-007",
+    "channel": "email",
+    "variant": "benefit_reminder",
+    "subject": "Your cart is waiting",
+    "body_text": "A friendly reminder: items are waiting in your cart.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-008",
+    "channel": "sms",
+    "variant": "product_reminder",
+    "subject": "Still thinking it over?",
+    "body_text": "Your selected items are still available. Return when ready.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-009",
+    "channel": "email",
+    "variant": "benefit_reminder",
+    "subject": "Your cart is waiting",
+    "body_text": "A friendly reminder: items are waiting in your cart.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-010",
+    "channel": "sms",
+    "variant": "product_reminder",
+    "subject": "Still thinking it over?",
+    "body_text": "Your selected items are still available. Return when ready.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-011",
+    "channel": "email",
+    "variant": "benefit_reminder",
+    "subject": "Your cart is waiting",
+    "body_text": "A friendly reminder: items are waiting in your cart.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-012",
+    "channel": "sms",
+    "variant": "product_reminder",
+    "subject": "Still thinking it over?",
+    "body_text": "Your selected items are still available. Return when ready.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-013",
+    "channel": "email",
+    "variant": "benefit_reminder",
+    "subject": "Your cart is waiting",
+    "body_text": "A friendly reminder: items are waiting in your cart.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-014",
+    "channel": "sms",
+    "variant": "product_reminder",
+    "subject": "Still thinking it over?",
+    "body_text": "Your selected items are still available. Return when ready.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-015",
+    "channel": "email",
+    "variant": "benefit_reminder",
+    "subject": "Your cart is waiting",
+    "body_text": "A friendly reminder: items are waiting in your cart.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-016",
+    "channel": "sms",
+    "variant": "product_reminder",
+    "subject": "Still thinking it over?",
+    "body_text": "Your selected items are still available. Return when ready.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-017",
+    "channel": "email",
+    "variant": "benefit_reminder",
+    "subject": "Your cart is waiting",
+    "body_text": "A friendly reminder: items are waiting in your cart.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-018",
+    "channel": "sms",
+    "variant": "product_reminder",
+    "subject": "Still thinking it over?",
+    "body_text": "Your selected items are still available. Return when ready.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-019",
+    "channel": "email",
+    "variant": "benefit_reminder",
+    "subject": "Your cart is waiting",
+    "body_text": "A friendly reminder: items are waiting in your cart.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  },
+  {
+    "template_id": "TPL-020",
+    "channel": "sms",
+    "variant": "product_reminder",
+    "subject": "Still thinking it over?",
+    "body_text": "Your selected items are still available. Return when ready.",
+    "personalization_fields": "first_name,cart_items,cart_total"
+  }
+]
